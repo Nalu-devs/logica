@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro quantidade
+    real valor, total, total_desconto
+    escreva("Digite o nome do produto: ")
+    leia(nome)
+    escreva("Digite a quantidade de itens que você adquiriu: ")
+    leia(quantidade)
+    escreva("Digite o valor unitario deste produto: ")
+    leia(valor)
+    total=valor*quantidade
+    se(quantidade<=20){
+      total_desconto=total-0.02
+      escreva("Nome do produto: ", nome, "\nPreço total sem desconto: ", total, "\nPreço com desconto: ",total_desconto)
+    }
+    senao{
+      se(quantidade>20 e quantidade<=50){
+        total_desconto=total-0.05
+        escreva("Nome do produto: ", nome, "\nPreço total sem desconto: ", total, "\nPreço com desconto: ",total_desconto)
+      }
+      senao{
+        se(quantidade>50){
+          escreva("Erro! Não é permitido a compra de 50 itens iguais")
+        }
+      }
+    }
+  }
+}
