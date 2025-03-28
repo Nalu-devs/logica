@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real peso, altura, imc
+		escreva("Digite o seu peso em kg: ")
+		leia(peso)
+		escreva("Digite sua altura: ")
+		leia(altura)
+		imc=peso/(altura*altura)
+		se(imc<=18){
+			escreva("Baixo peso, imc: ", imc)
+		}
+		senao{
+			se(imc>18 e imc<24){
+				escreva("Normal, imc: ", imc)	
+			}
+			senao{
+				escreva("Obeso, imc: ", imc)
+			}
+		}
+	}
+}
