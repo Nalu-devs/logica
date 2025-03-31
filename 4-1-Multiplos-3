@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num
+		escreva("Números multiplos de 3 até 300")
+		para(num=3; num<=300; num+=3){
+			escreva("\n",num)
+		}
+	}
+}
