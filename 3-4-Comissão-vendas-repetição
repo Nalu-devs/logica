@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome, x
+		real sal_fixo, valor_vendas, sal_final
+		faca{
+		escreva("Digite o nome do funcionario: ")
+		leia(nome)
+		escreva("Digite o seu salário fixo: ")
+		leia(sal_fixo)
+		escreva("Digite o valor das suas vendas: ")
+		leia(valor_vendas)
+		se(valor_vendas<=2000){
+			escreva("O funcionário: ", nome, " Receberá: ", sal_final=valor_vendas*0.03+sal_fixo)
+		}
+		senao{
+			se(valor_vendas>2000 e valor_vendas<=5000){
+				escreva("O funcionário: ", nome, " Receberá: ", sal_final=valor_vendas*0.05+sal_fixo)
+			}
+			senao{
+				se(valor_vendas>5000){
+					escreva("O funcionário: ", nome, " Receberá: ", sal_final=valor_vendas*0.1+sal_fixo)
+				}
+				senao{
+					escreva("O funcionário: ", nome, " Receberá: ", sal_fixo)
+				}
+			}
+		}
+		escreva("\nDigite pare para parar ou continue para continuar: ")
+		leia(x)
+		}enquanto(x!="pare")
+	}
+}
