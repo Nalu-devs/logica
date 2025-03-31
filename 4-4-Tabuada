@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num, a, resultado
+		cadeia x
+		faca{
+		escreva("Digite um número para tabuada \n")
+		leia(num)
+		escreva("Tabuada do: \n", num)
+		para(a=0; a<=10; a+=1){
+			resultado=num*a
+			escreva("\n",num, " X ", a, "=", resultado)
+		}
+		escreva("\n\nDigite ! para fazer novo calculo")
+		leia(x)
+		}enquanto(x=="!")
+	}
+}
