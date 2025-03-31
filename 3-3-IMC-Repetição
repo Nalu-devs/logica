@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real peso, altura, imc
+		cadeia x
+		faca{
+		escreva("Digite o seu peso em kg: ")
+		leia(peso)
+		escreva("Digite sua altura: ")
+		leia(altura)
+		imc=peso/(altura*altura)
+		se(imc<=18){
+			escreva("Baixo peso, imc: ", imc)
+		}
+		senao{
+			se(imc>18 e imc<24){
+				escreva("Normal, imc: ", imc)	
+			}
+			senao{
+				escreva("Obeso, imc: ", imc)
+			}
+		}
+		escreva("\nDigite pare para parar ou continuar para continuar: ")
+		leia(x)
+		}enquanto(x!="pare")
+	}
+}
