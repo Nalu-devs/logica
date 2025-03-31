@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num
+		escreva("Números impares de 1 a 500")
+		para(num=1; num<=500; num+=2){
+			escreva("\n",num)
+		}
+	}
+}
