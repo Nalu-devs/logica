@@ -8,4 +8,5 @@ main(){
 	scanf("%f",&c);
 	ar=l*c;
 	printf("A area do seu terreno de largura: %.2f e comprimento: %.2f é igual a: %.2f",l, c, ar);/*O comando .numero define quantas casas vai ter depois da virgula*/
+    system("pause");/*Serve para o aplicativo mostrar o resultado no aplicativo*/
 }
