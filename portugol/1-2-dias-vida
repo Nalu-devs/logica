@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro a, m, d, dv
+    escreva("Digite seu ano de nascimento: ")
+    leia(a)
+    escreva("Digite seu mes de nascimento: ")
+    leia(m)
+    escreva("Digite seu dia de nascimento: ")
+    leia(d)
+    dv=(a*365)+(m*30)+d
+    escreva("Você tem: ",dv, " Dias de vida")
+  }
+}
