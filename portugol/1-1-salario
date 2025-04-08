@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    real salm, r, ns
+    escreva("Digite seu salario mensal: ")
+    leia(salm)
+    escreva("Digite seu reajuste: ")
+    leia(r)
+    ns=((salm*r)/100)+salm
+    escreva("Seu novo salario é de: ", ns)
+  }
+}
