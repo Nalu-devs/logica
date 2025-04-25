@@ -5,14 +5,14 @@ main(){
 	int quantidade;
 	do{
 	printf("Digite o nome do produto: \n");
-	scanf("%s",&produto);
+	scanf("%s",&produto);//o s serve para declarar que é mais de um carcter
 	printf("Digite o preço do produto: \n");
 	scanf("%f",&preco);
 	printf("Digite a quantidade de produtos: \n");
 	scanf("%d",&quantidade);
 	fflush(stdin); //serve para n deixar o enter virar um caracter
 	printf("Digite a forma de pagamento (v para avista, 5 para 5 vezes ou x para mais de 5 vezes): \n");
-	scanf("%c",&forma_pag);
+	scanf("%c",&forma_pag);//o c serve para declarar apenas um caracter
 	if (forma_pag=='v'){
 		desconto=(preco*quantidade)*15/100;
 		valorF=(preco*quantidade)-desconto;
@@ -36,7 +36,7 @@ main(){
 		printf("Forma de pagemento inaceitavel digite v para avista, 5 para 5 vezes ou x para mais de 5 vezes");
 	}
 	printf("O produto %s vai custar %.2f e sua parcela é de %.2f \n", produto, valorF, parcelaF);
-	fflush(stdin);
+	fflush(stdin); //serve para n deixar o enter virar um caracter
 	printf("Para fazer novo calculo digite 1 ou  2 para encerar \n");
 	scanf("%c",&op);
 	}while(op=='1');
