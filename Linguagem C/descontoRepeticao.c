@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 main(){
-	setlocate(LC_All, "portugues")
+	setlocale(LC_All, "portuguese");
 	char produto[30], forma_pag, op;
 	float preco, valorF, num_parcela, parcelaF, desconto;
 	int quantidade;
