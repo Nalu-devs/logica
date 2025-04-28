@@ -11,6 +11,7 @@ main(){
 	printf("Digite a quantidade de produtos: \n");
 	scanf("%d",&quantidade);
 	fflush(stdin); //serve para n deixar o enter virar um caracter
+	do{
 	printf("Digite a forma de pagamento (v para avista, 5 para 5 vezes ou x para mais de 5 vezes): \n");
 	scanf("%c",&forma_pag);//o c serve para declarar apenas um caracter
 	if (forma_pag=='v'){
@@ -35,6 +36,7 @@ main(){
 	else{
 		printf("Forma de pagemento inaceitavel digite v para avista, 5 para 5 vezes ou x para mais de 5 vezes");
 	}
+	}while(forma_pag!='v' || forma_pag!='5' || forma_pag!='x');
 	printf("O produto %s vai custar %.2f e sua parcela é de %.2f \n", produto, valorF, parcelaF);
 	fflush(stdin); //serve para n deixar o enter virar um caracter
 	printf("Para fazer novo calculo digite 1 ou  2 para encerar \n");
