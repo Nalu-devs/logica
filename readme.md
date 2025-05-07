@@ -8,10 +8,6 @@ Esse repositório tem a resolução de exercicios propostos de uma lista e estã
    3. [Motivação](#motivação)
    5. [Saiba que](#saiba-que)
    6. [Enunciados](#enunciados)
-      1. [Estruturas sequenciais](#estruturas-sequenciais)
-      2. [Estruturas de decisão](#estruturas-de-decisão)
-      3. [Estruturas de repetição](#estruturas-de-repetição)
-      4. [Listas](#listas)
 ## Motivação
 Estou disponibilizando essa lista visando mostrar para as pessoas curiosas em logica de programação que a logica não é dificil, e também mostrar diferentes formas de resolver problemas iguais em linguagens diferentes
 ## Saiba que
@@ -26,7 +22,12 @@ Peça ao usuário um numero diga o dobro e a metade deste numero
 ### Exercicio 004 
 Peça ao usuário a duração de um evento e informe as horas, minutos e segundos desse tempo
 ### Exercicio 005
-Peça ao usuário para digitar três numeros e diga o valor de D sabendo que R=(a+b)/c, S=(b+c)/a e D=(r+s)/2
+Peça ao usuário para digitar três numeros e diga o valor de D sabendo que:
+
+      R=(a+b)/c
+      S=(b+c)/a
+      D=(r+s)/2
+
 ### Exercicio 006
 Peça para o usuário informar seu nome, seu ano de nascimento e o ano atual. Exiba sua idade
 ### Exercicio 007
@@ -40,7 +41,13 @@ Peça ao usuário para digitar um numero e indique o sucessor e antecessor desse
 ### Exercicio 011
 Crie uma tabuada do 0 a 10
 ### Exercicio 012
-Peça ao usuário para digitar a velocidade maxima permitida em uma pista e a velocidade que ele estava dirigindo, se o motorista passou até 10 paga multa de 50, se passou de 11 a 30 multa de 100 e se passou acima de 30 multa de 200, se não sem multa
+Peça ao usuário para digitar a velocidade maxima permitida em uma pista e a velocidade que ele estava dirigindo:
+
+      Se o motorista passou até 10 paga multa de 50
+      Se passou de 11 a 30 multa de 100
+      Se passou acima de 30 multa de 200
+      Se não sem multa
+      
 ### Exercicio 013
 Faça um programa que mostre o nome do produto quanto vai ser seu custo (multiplicando a quantidade pelo valor) e como vai ser sua forma de pagamento 
 ### Exercicio 014
@@ -52,13 +59,41 @@ Gerar os valores em ordem decrescente de 500 a 0
 ### Exercicio 017
 Gerar a tabuada de um valor solicitado pelo usuário e verificar se ele deseja novo cálculo de tabuada
 ### Exercicio 018
-Calcular a média e determinar a classificação de notas dos alunos: se média entre : 8 e 10, classificação “A”; se média entre: 7 e 7,9, classificação “B”; se média entre: 5 e 6,9, classificação “C”; se média abaixo de 5, classificação “D”. Mostrar como resultado: nome aluno, média, classificação
+Calcular a média e determinar a classificação de notas dos alunos:
+
+      Se média entre : 8 e 10, classificação “A”; 
+      Se média entre: 7 e 7,9, classificação “B”; 
+      Se média entre: 5 e 6,9, classificação “C”; 
+      Se média abaixo de 5, classificação “D”. 
+      Mostrar como resultado: nome aluno, média, classificação
+      
 ### Exercicio 019
 Ler o nome, a quantidade adquirida e o preço unitário. Calcular e escrever o total a pagar. Onde: 
-total = quantidade adquirida * preço unitáritotal
-pagar = total – desconto
-o desconto será calculado, sabendo-se que:
-- Se quantidade <= 20 o desconto será de 2%
-- Se quantidade > 20 o desconto será de 5%
+
+      Total = quantidade adquirida * preço unitáritotal
+      Pagar = total – desconto
+      
+      O desconto será calculado, sabendo-se que:
+      - Se quantidade <= 20 o desconto será de 2%
+      - Se quantidade > 20 o desconto será de 5%
+
 OBS: quantidade máxima permitida é 50 (não aceitar valores superiores).
 ### Exercicio 020
+Ler os valores para nome, peso e altura de uma pessoa e calcule o seu IMC (índice de
+massa corpórea), pela fórmula: IMC = peso/(altura2)
+Escrever o nome da pessoa, seu imc e sua classificação de acordo com a tabela:
+
+      Se o resultado do IMC for até 18, escrever “baixo peso” 
+      Se for maior que 18 e menor igual a 24, escrever “normal”
+      Se for maior que 24, escrever ‘Obeso’.
+### Exercicio 021
+Ler o nome, o salário fixo e o valor das vendas efetuadas pelo vendedor de uma loja.
+Sabendo-se que:
+
+      Recebe uma comissão de 3% sobre o total das vendas até R$ 2.000,00
+      Recebe 5% sobre vendas acima de R$ 2.000,00 e R$ 5.000,00 e
+      Recebe 10% para vendas acima de R$ 5000,00
+      
+Calcular e escrever o seu nome e o salário com abono.
+### Exercicio 022
+Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
