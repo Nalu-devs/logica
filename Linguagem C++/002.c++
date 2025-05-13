@@ -1,14 +1,16 @@
 //Peça ao usuário que digite o ano, o mes e o dia que nasceu e calcule a idade dele apenas em dias
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 main(){
+    setlocale(LC_ALL, "portuguese");
     int a,m,d,dv;
-    printf("Digite o ano do seu nascimento: ");
-    scanf("%d",&a);
-    printf("Digite o mês do seu nascimento: ");
-    scanf("%d",&m);
-    printf("Digite o dia do seu nascimento: ");
-    scanf("%d",&d);
+    cout<<"Digite o ano do seu nascimento: ";
+    cin>>a;
+    cuot<<"Digite o mês do seu nascimento: ";
+    cin>>m;
+    cout<<"Digite o dia do seu nascimento: ";
+    cin>>d;
     dv=(a*365)+(m*30)+d;
-    printf("Sua idade em dias é: %d",dv);
+    cout<<"Sua idade em dias é:"<<dv;
 }
