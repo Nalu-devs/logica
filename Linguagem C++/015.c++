@@ -1,10 +1,12 @@
 //Gerar e mostrar os valores ímpares até 500
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 main(){
+    setlocale(LC_ALL, "portuguese");
     int i;
-    printf("\t\t Números impares até 500");
+    cout<<"\t\t Números impares até 500";
     for(i=1;i<500;i=i+2){
-        printf("%d \n",i);
+        cout<<"\n"<<i;
     }
 }
