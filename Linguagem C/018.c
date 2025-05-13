@@ -1,3 +1,10 @@
+//Calcular a média e determinar a classificação de notas dos alunos:
+//Se média entre : 8 e 10, classificação “A”; 
+//Se média entre: 7 e 7,9, classificação “B”; 
+//Se média entre: 5 e 6,9, classificação “C”; 
+//Se média abaixo de 5, classificação “D”. 
+//Mostrar como resultado: nome aluno, média, classificação
+
 #include <stdio.h>
 main(){
     char nome[40], op, clas;

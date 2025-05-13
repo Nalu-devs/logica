@@ -1,3 +1,11 @@
+//Ler o nome, a quantidade adquirida e o preço unitário. Calcular e escrever o total a pagar. Onde:
+//Total = quantidade adquirida * preço unitáritotal
+//Pagar = total – desconto
+//O desconto será calculado, sabendo-se que:
+//- Se quantidade <= 20 o desconto será de 2%
+//- Se quantidade > 20 o desconto será de 5%
+//OBS: quantidade máxima permitida é 50 (não aceitar valores superiores).
+
 #include <stdio.h>
 main(){
     char nome[40];

@@ -1,3 +1,5 @@
+//Peça ao usuário para digitar um numero e indique o sucessor e antecessor desse numero
+
 #include <stdio.h>
 main()
 {

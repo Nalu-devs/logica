@@ -1,3 +1,5 @@
+//Peça ao usuário a duração de um evento e informe as horas, minutos e segundos desse tempo
+
 #include <stdio.h>
 main()
 {

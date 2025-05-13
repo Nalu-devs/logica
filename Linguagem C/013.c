@@ -1,3 +1,6 @@
+//Faça um programa que mostre o nome do produto quanto vai ser seu custo (multiplicando a quantidade pelo valor) 
+//e como vai ser sua forma de pagamento
+
 #include <stdio.h>
 #include <locale.h>
 main(){

@@ -1,3 +1,5 @@
+//Crie uma tabuada do 0 a 10
+
 #include <stdio.h>
 main(){
     int i, num, res;

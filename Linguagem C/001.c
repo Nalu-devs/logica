@@ -1,3 +1,5 @@
+//Calcule a area de um terreno com base na sua altura e largura
+
 #include <stdio.h>
 main(){
 	float l, c, ar; /*Declaração de variavel do tipo real*/

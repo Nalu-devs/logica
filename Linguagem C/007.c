@@ -1,3 +1,5 @@
+//Indique o valor do salário e do aumento e calcule o valor do reajuste
+
 #include <stdio.h>
 main()
 {

@@ -1,3 +1,5 @@
+//Peça ao usuário um numero diga o dobro e a metade deste numero
+
 #include <stdio.h>
 main()
 {

@@ -1,3 +1,5 @@
+//Gerar a tabuada de um valor solicitado pelo usuário e verificar se ele deseja novo cálculo de tabuada
+
 #include <stdio.h>
 main(){
     int num,i,res;

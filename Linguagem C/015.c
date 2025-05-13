@@ -1,3 +1,5 @@
+//Gerar e mostrar os valores ímpares até 500
+
 #include <stdio.h>
 main(){
     int i;

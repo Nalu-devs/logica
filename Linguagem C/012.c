@@ -1,3 +1,9 @@
+//Peça ao usuário para digitar a velocidade maxima permitida em uma pista e a velocidade que ele estava dirigindo:
+//Se o motorista passou até 10 paga multa de 50
+//Se passou de 11 a 30 multa de 100
+//Se passou acima de 30 multa de 200
+//Se não sem multa
+
 #include <stdio.h>
 main()
 {

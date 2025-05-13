@@ -1,3 +1,5 @@
+//Peça ao usuário para digitar três numeros e indique se a soma do segundo pelo terceiro é maior ou menor que o primeiro
+
 #include <stdio.h>
 main()
 {

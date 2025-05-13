@@ -1,3 +1,5 @@
+//Peça ao usuário que digite o ano, o mes e o dia que nasceu e calcule a idade dele apenas em dias
+
 #include <stdio.h>
 main(){
     int a,m,d,dv;

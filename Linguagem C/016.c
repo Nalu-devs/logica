@@ -1,3 +1,5 @@
+//Gerar os valores em ordem decrescente de 500 a 0
+
 #include <stdio.h>
 main(){
     int i;
