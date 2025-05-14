@@ -14,8 +14,8 @@ main(){
     cin>>nome;
     cout<<"Digite seu peso: \n";
     cin>>peso;
-    printf("Digite sua altura: \n");
-    scanf("%f",&altura);
+    cout<<"Digite sua altura: \n";
+    cin>>altura;
     imc=peso/(altura^^2);
     if (imc<=18){
         situ="Baixo peso";
@@ -26,5 +26,5 @@ main(){
     else{
         situ="Obeso";
     }
-    printf("%s sua situação é: %s",nome, situ);
+    cout<<nome<<" sua situação é: "<<situ;
 }
