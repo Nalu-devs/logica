@@ -97,3 +97,24 @@ Sabendo-se que:
 Calcular e escrever o seu nome e o salário com abono.
 ### Exercicio 022
 Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+### Exercicio 023
+Escrever um programa que leia uma sequência de valores inteiros, até ser lido o valor -99. Quando isso acontecer o programa deverá mostrar a soma e a média dos valores lidos.
+### Exercicio 024
+Solicitar a idade de várias pessoas e imprimir: Quantidade de pessoas com menos de 21 anos. Quantidade de pessoas com mais de 50 anos. O programa termina quando idade digitada for -99
+### Exercicio 025
+Escrever um programa que receba vários números inteiros no teclado. E no final imprimir a média dos números múltiplos de 3. Para sair digitar 0 (zero)
+### Exercicio 026
+Fazer um programa no qual o usuário vai entrando sucessivamente com valores positivos. Quando o usuário entrar com um valor negativo o programa para de pedir valores e calcula a média dos valores já fornecidos.
+### Exercicio 027
+Calcular o fatorial de um valor lido pelo usuário. Exemplo: fatorial de 5. Para o cálculo: 5! = 5 x 4x 3 x 2 x 1 Mostrar o resultado
+### Exercicio 028
+Programa que calcule a divisão de um numero pelo outro, sabendo que o quociente tem que ser diferente de 0
+### Exercicio 029
+Faça um algoritmo que gere valores de 1 a 100 e calcule e escreva a média aritmética dos valores gerados.
+### Exercicio 030
+Uma loja está levantando o valor total de todas as mercadorias em estoque. Escreva um algoritmo que permita a entrada das seguintes informações:
+
+      a. o número total de mercadorias no estoque;
+      b. o valor de cada mercadoria
+      
+Ao final imprimir o valor total em estoque e a média de valor das mercadorias.
