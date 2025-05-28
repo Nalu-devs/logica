@@ -118,3 +118,15 @@ Uma loja está levantando o valor total de todas as mercadorias em estoque. Escr
       b. o valor de cada mercadoria
       
 Ao final imprimir o valor total em estoque e a média de valor das mercadorias.
+### Exercicio 031
+Crie um algoritmo que leia um número e alerte quando o mesmo for maior do que 100.
+### Exercicio 032
+Crie um algoritmo que leia uma senha fornecida pelo usuário composta por caracteres para informar se a senha é válida ou inválida. A senha do sistema corresponde a palavra “PORTUGOL”.
+### Exercicio 033
+Criar um vetor, preenchê-lo com valores fornecidos pelo usuário e depois imprimi-los.
+### Exercicio 034
+Guardar 20 valores reais em um vetor e mostrar todos os valores guardados nas posições pares (2-20). Não se esqueça que o índice começa em zero.
+### Exercicio 035
+Guardar 20 valores inteiros em um vetor e mostrar como resultado: Se o valor for positivo, seu dobro, se o valor negativo, seu positivo correspondente.
+### Exercicio 036
+Guardar 10 valores inteiros e positivos em um vetor e gerar outro vetor comresultados da seguinte forma: Se o valor guardado for par, multiplica-lo por 2, se o valor guardado for ímpar, multiplica-lo por -1.
