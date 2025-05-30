@@ -7,7 +7,7 @@ using namespace std;
 main(){
 	setlocale(LC_ALL, "portuguese");
 	int soma, num, cont=0;
-	float media, resto;
+	float media;
 	do{
 		cout<<"Digite um numero ou 0 para sair \n";
 		cin>>num;
