@@ -14,5 +14,5 @@ main(){
 	}
 	for (i=0;i<elementos;i++){
 		cout<<vetor[i]<<" ";
-	}
+	}	
 }
