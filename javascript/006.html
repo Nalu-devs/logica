@@ -1,0 +1,31 @@
+<!-- Peça para o usuário informar seu nome, seu ano de nascimento e o ano atual. Exiba sua idade -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>006</title>
+</head>
+<body>
+    <h1>Calculo de idade</h1>
+    <input type="text" placeholder="Digite seu nome" id="nome">
+    <input type="text" placeholder="Digite o ano do nascimento" id="anoNasc">
+    <input type="text" placeholder="Digite o ano atual" id="anoAtual">
+    <button id="idade" onclick="idade()">Ver idade</button>
+    <p id="idadeAtual"></p>
+
+    <script>
+        var nomeinput = document.getElementById("nome")
+        var nome = nomeinput.value
+        var anoNascInput = document.getElementById("anoNasc")
+        var anoAtualInput = document.getElementById("anoAtual")
+        var idadeAtual = document.getElementById("idadeAtual")
+        var anoAtual = parseInt(anoAtualInput.value)
+        var anoNasc = parseInt(anoNascInput.value)
+        idadeAtual = ""
+        var idadeAtualFinal = anoAtual-anoNasc
+        idadeAtualFinal.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
+    </script>
+</body>
+</html>
