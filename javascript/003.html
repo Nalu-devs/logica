@@ -1,0 +1,37 @@
+<!-- Peça ao usuário um numero diga o dobro e a metade deste numero -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>003</title>
+</head>
+<body>
+    <h1>Digite um número e diremos seu dobro e metade</h1>
+    <input id="num" placeholder="Numero">
+    <button id="dobro" onclick="dobro()">Ver dobro</button>
+    <button id="metade" onclick="metade()">Ver metade</button>
+    <p id="resultadoDobro"></p>
+    <p id="resultadoMetade"></p>
+
+    <script>
+        function dobro(){
+        var num = document.getElementById("num")
+        var resultadoDobro = document.getElementById("resultadoDobro")
+        num = parseInt(num.value)
+        var dobro = num*2
+        resultadoDobro.textContent = "Dobro igual a: " + dobro
+    }
+
+    function metade(){
+        var num = document.getElementById("num")
+        var resultadoMetade = document.getElementById("resultadoMetade")
+        num = parseInt(num.value)
+        var metade = num/2
+        resultadoMetade.textContent = "Metade igual a: "+ metade
+    }
+
+    </script>
+</body>
+</html>
