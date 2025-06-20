@@ -1,0 +1,32 @@
+<!-- Calcule a area de um terreno com base na sua altura e largura -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>001</title>
+</head>
+
+<body>
+    <input type="text" placeholder="altura" id="altura">
+    <input type="text" placeholder="largura" id="largura">
+    <button type="text" id="area" onclick="calcular()">Calcular area</button>
+    <!-- o onclick serve para indicar que quando o botao for clicado ele executara uma funcao -->
+    <p id="resultado"></p>
+
+    <script>
+        function calcular() {
+        var altura = document.getElementById("altura") //indica que tal variavel vai pegar o valor de tal id
+        var largura = document.getElementById("largura")
+        var resultado = document.getElementById("resultado")
+        altura = parseFloat(altura.value)//indica que o valor digitado é um numero float (com virgula)
+        largura = parseFloat(largura.value)
+        var area = altura * largura
+        resultado.textContent = 'Area igual a ' + area + ' m²'
+        }
+    </script>
+</body>
+
+</html>
