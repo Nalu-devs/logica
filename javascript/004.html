@@ -22,13 +22,13 @@
             var minutos = document.getElementById("minutos")
             var segundos = document.getElementById("segundos")
             evento = parseFloat(evento.value)
-            horas = Math.floor(evento/3600)
+            horas.value = Math.floor(evento/3600)
             var segundosRestantes = evento%3600
-            minutos = Math.floor(segundosRestantes/60)
-            segundos = segundosRestantes%60
-            horas.textContent = "Horas do evento: " + horas
-            minutos.textContent = "Minutos do evento: " + minutos
-            segundos.textContent = "Segundos do evento: " + segundos
+            minutos.value = Math.floor(segundosRestantes/60)
+            segundos.value = segundosRestantes%60
+            horas.textContent = "Horas do evento: " + horas.value
+            minutos.textContent = "Minutos do evento: " + minutos.value
+            segundos.textContent = "Segundos do evento: " + segundos.value
         }
     </script>
 </body>
