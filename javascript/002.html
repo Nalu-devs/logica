@@ -1,0 +1,32 @@
+<!-- Peça ao usuário que digite o ano, o mes e o dia que nasceu e calcule a idade dele apenas em dias -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>002</title>
+</head>
+<body>
+    <h1>Calculo de idade em dias</h1>
+    <input id="ano" type="text" placeholder="Anos">
+    <input id="mes" type="text" placeholder="Mes">
+    <input id="dia" type="text" placeholder="dia">
+    <button id="dias" onclick="diasVida()">Calcular idade em dias</button>
+    <p id="resultado"></p>
+    
+    <script>
+        function diasVida(){
+        var ano = document.getElementById("ano")
+        var mes = document.getElementById("mes")
+        var dia = document.getElementById("dia")
+        ano = parseInt(ano.value)
+        mes = parseInt(mes.value)
+        dia = parseInt(dia.value)
+        var resultado = document.getElementById("resultado")
+        var dias = (ano*365)+(mes*30)+dia
+        resultado.textContent = "Dias de vida igual a: "+ dias + " dias"
+    }
+    </script>
+</body>
+</html>
