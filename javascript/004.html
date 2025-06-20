@@ -1,0 +1,35 @@
+<!-- Peça ao usuário a duração de um evento e informe as horas, minutos e segundos desse tempo -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>004</title>
+</head>
+<body>
+    <h1>Digite as horas do evento e te daremos as horas, minutos e segundos</h1>
+    <input type="text" id="evento" placeholder="Horas do Evento">
+    <button id="calcular" onclick="calcularDuracao()">Calcular duração</button>
+    <p id="horas"></p>
+    <p id="minutos"></p>
+    <p id="segundos"></p>
+
+    <script>
+        function calcularDuracao(){
+            var evento = document.getElementById("evento")
+            var horas = document.getElementById("horas")
+            var minutos = document.getElementById("minutos")
+            var segundos = document.getElementById("segundos")
+            evento = parseFloat(evento.value)
+            horas = Math.floor(evento/3600)
+            var segundosRestantes = evento%3600
+            minutos = Math.floor(segundosRestantes/60)
+            segundos = segundosRestantes%60
+            horas.textContent = "Horas do evento: " + horas
+            minutos.textContent = "Minutos do evento: " + minutos
+            segundos.textContent = "Segundos do evento: " + segundos
+        }
+    </script>
+</body>
+</html>
