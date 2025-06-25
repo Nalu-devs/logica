@@ -28,7 +28,7 @@
             var anoNasc = parseInt(anoNascInput.value)
             var mensagem = document.getElementById("idadeAtual")
             var idadeAtualFinal = anoAtual - anoNasc
-            if (isNaN(anoAtual) && anoAtualInput.style.border === "") {
+            if (isNaN(anoAtual) && anoAtualInput.style.border === "") { //3 === serve para comparar se o que realmente esta na variavel é aquilo
                 anoAtualInput.style.border = "1px solid red"
                 mensagem.textContent = "Campo não preenchido"
             }
@@ -37,7 +37,7 @@
                 mensagem.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
             }
 
-            if (isNaN(anoNasc) && anoNascInput.style.border === ""){
+            if (isNaN(anoNasc) && anoNascInput.style.border === ""){ //O isNan avalia se foi digitado um numero
                 anoNascInput.style.border = "1px solid red"
                 mensagem.textContent = "Campo não preenchido"
             }
