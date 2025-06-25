@@ -2,11 +2,13 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>006</title>
 </head>
+
 <body>
     <h1>Calculo de idade</h1>
     <input type="text" placeholder="Digite seu nome" id="nome">
@@ -16,16 +18,36 @@
     <p id="idadeAtual"></p>
 
     <script>
-        var nomeinput = document.getElementById("nome")
-        var nome = nomeinput.value
-        var anoNascInput = document.getElementById("anoNasc")
-        var anoAtualInput = document.getElementById("anoAtual")
-        var idadeAtual = document.getElementById("idadeAtual")
-        var anoAtual = parseInt(anoAtualInput.value)
-        var anoNasc = parseInt(anoNascInput.value)
-        idadeAtual = ""
-        var idadeAtualFinal = anoAtual-anoNasc
-        idadeAtualFinal.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
+        function idade() {
+            var nomeinput = document.getElementById("nome")
+            var nome = nomeinput.value
+            var anoNascInput = document.getElementById("anoNasc")
+            var anoAtualInput = document.getElementById("anoAtual")
+            var idadeAtual = document.getElementById("idadeAtual")
+            var anoAtual = parseInt(anoAtualInput.value)
+            var anoNasc = parseInt(anoNascInput.value)
+            var mensagem = document.getElementById("idadeAtual")
+            var idadeAtualFinal = anoAtual - anoNasc
+            if (isNaN(anoAtual) && anoAtualInput.style.border === "") {
+                anoAtualInput.style.border = "1px solid red"
+                mensagem.textContent = "Campo não preenchido"
+            }
+            else if (anoAtualInput.style.border == "1px solid red") {
+                anoAtualInput.style.border = "1px solid black"
+                mensagem.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
+            }
+
+            if (isNaN(anoNasc) && anoNascInput.style.border === ""){
+                anoNascInput.style.border = "1px solid red"
+                mensagem.textContent = "Campo não preenchido"
+            }
+            else if(anoNascInput.style.border == "1px solid red"){
+                anoNascInput.style.border = "1 px solid black"
+                mensagem.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
+            }
+            
+        }
     </script>
 </body>
+
 </html>
