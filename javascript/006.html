@@ -37,15 +37,28 @@
                 mensagem.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
             }
 
-            if (isNaN(anoNasc) && anoNascInput.style.border === ""){ //O isNan avalia se foi digitado um numero
+            if (isNaN(anoNasc) && anoNascInput.style.border === "") { //O isNan avalia se foi digitado um numero
                 anoNascInput.style.border = "1px solid red"
                 mensagem.textContent = "Campo não preenchido"
             }
-            else if(anoNascInput.style.border == "1px solid red"){
+
+            else if (anoNascInput.style.border == "1px solid red") {
                 anoNascInput.style.border = "1 px solid black"
                 mensagem.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
             }
-            
+
+            if (nome == "" && nomeinput.style.border == "") {
+                nomeinput.style.border = "1px solid red"
+                mensagem.textContent = "Campo não preenchido"
+            }
+
+            else if (nomeinput.style.border == "1px solid red") {
+                nomeinput.style.border = "1px solid black"
+                mensagem.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
+            }
+            else if(nome != ""){
+                mensagem.textContent = "A idade de " + nome + " é igual a " + idadeAtualFinal
+            }
         }
     </script>
 </body>
